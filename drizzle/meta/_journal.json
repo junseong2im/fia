@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1784203947347,
+      "tag": "0000_nebulous_grim_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784205012778,
+      "tag": "0001_skinny_smasher",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1784205308960,
+      "tag": "0002_foamy_smasher",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1784205738016,
+      "tag": "0003_petite_whirlwind",
+      "breakpoints": true
+    }
+  ]
+}
