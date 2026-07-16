@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const metadataBase = new URL(
+  process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"),
+);
+
 export const metadata: Metadata = {
+  metadataBase,
   title: "FIA — AI 금융 운영체제",
   description:
     "17개 금융 AI 전문가가 자산을 이해하고 계획하고 실행하는 Full-scope 금융 운영체제",

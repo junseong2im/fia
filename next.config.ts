@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const nextConfig: NextConfig =
+  process.env.FIA_RUNTIME === "vercel"
+    ? {
+        turbopack: {
+          resolveAlias: {
+            "cloudflare:workers": "./lib/cloudflare-workers-shim.ts",
+          },
+        },
+      }
+    : {};
 
 export default nextConfig;
