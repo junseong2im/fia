@@ -394,7 +394,7 @@ export default function FiaApp() {
 
         {view === "overview" && (
           <section className="page-content overview-page">
-            <div className="page-heading overview-heading"><div><span className="eyebrow">2026년 7월 16일 · 목요일</span><h1>민준님의 금융은 오늘도 <em>계획대로</em> 움직이고 있어요.</h1><p>17개 AI 전문가가 152개 데이터 포인트와 {featureCount}개 기능을 함께 점검했습니다.</p></div><div className="health-score"><div><span>금융 건강점수</span><strong>82</strong><small>/ 100</small></div><i style={{ "--score": "82%" } as React.CSSProperties} /></div></div>
+            <div className="page-heading overview-heading"><div><span className="eyebrow">Financial Intelligence Agent · Live</span><h1>내 금융을 하나의 <em>운영체제로.</em></h1><p>17개 AI 전문가가 152개 데이터 포인트와 {featureCount}개 기능을 연결해 자산을 이해하고, 계획하고, 실행합니다.</p></div><div className="health-score"><div><span>금융 건강점수</span><strong>82</strong><small>/ 100</small></div><i style={{ "--score": "82%" } as React.CSSProperties} /></div></div>
             <div className="dashboard-grid hero-grid">
               <article className="card networth-card">
                 <div className="card-topline"><span>통합 순자산</span><button onClick={() => setView("accounts")}>15개 원천 보기 ↗</button></div>
